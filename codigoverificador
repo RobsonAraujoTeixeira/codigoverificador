@@ -1,0 +1,16 @@
+numero=[18414]
+soma=0
+
+def codigo_senha(numero):
+    '''
+    esta função mostra o cogido verificador do numero 18414
+    '''
+    a=numero[0]*5
+    b=numero[1]*4
+    c=numero[2]*3
+    d=numero[3]*2
+    e=numero[4]*1
+    global soma
+    soma=a+b+c+d+e
+
+    return " Seu codigo verificador é : ",(soma)
